@@ -1,0 +1,222 @@
+/* .margin-center{
+    margin:10px auto;
+    }
+.button-align{
+    display: flex;
+    justify-content: flex-end;
+    border-color: #ddd;
+  
+}
+.link{
+    border-color: #ddd;
+    box-shadow: none
+}
+.contents{
+    width: 100%;
+    height: 20em;
+    resize: none;
+}
+p.groove {
+    border-style: groove;
+    width: 100%;
+    height: 10em;
+    resize: none;
+} */
+
+#qnaList, #qnaDetail, #qnaForm, #qnaAnswer {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#qnaList h2, #qnaDetail h2, #qnaForm h2, #qnaAnswer h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* 문의 목록 */
+#qnaList>div {
+    box-shadow: none;
+}
+
+#qnaList>div thead {
+    background: #E2CEAE;
+}
+
+#qnaList>div tbody td {
+    border-bottom: 1px solid #E2CEAE;
+}
+
+#qnaList>div tbody td a {
+    text-decoration: none;
+    color: #000;
+}
+
+#qnaList .button-align, #qnaDetail .button-align {
+    margin: 20px 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#qnaList .button-align a {
+    display: block;
+    width: 150px;
+    height: 30px;
+    line-height: 1.5em;
+    text-align: center;
+    color: #000;
+    background: linear-gradient(90deg, #D5BA8C, #E2CEAE);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    box-shadow: none;
+    border: none;    
+}
+
+#qnaList .button-align a:hover {
+    background: linear-gradient(-90deg, #D5BA8C, #E2CEAE);
+}
+
+#qnaList .paging {
+    margin: 10px 0 30px;
+}
+
+#qnaList .paging nav {
+    margin: 0 auto;
+}
+
+#qnaList .paging nav li .css-yuzg60-MuiButtonBase-root-MuiPaginationItem-root.Mui-selected {
+    background: #D5BA8C;
+}
+
+/* 문의 상세, 답변 일부 */
+#qnaDetail .css-1ps6pg7-MuiPaper-root,
+#qnaAnswer .css-1ps6pg7-MuiPaper-root {
+    box-shadow: none;
+}
+
+#qnaDetail .dl-dt-dd,
+#qnaAnswer .dl-dt-dd {
+    width: 100%;
+    margin: 0 auto;
+    display:flex;
+    justify-content: flex-start;
+}
+
+#qnaDetail .dl-dt-dd dt,
+#qnaAnswer .dl-dt-dd dt {
+    width: 100px;
+    font-weight: bold;
+    background: #D5BA8C;
+    text-align: left;
+    padding: 10px;
+}
+
+#qnaDetail .dl-dt-dd dd,
+#qnaAnswer .dl-dt-dd dd {
+    width: calc( 100% - 100px );
+    padding: 10px 20px;
+    border-bottom:1px solid #D5BA8C;
+} 
+
+#qnaDetail .dl-dt-dd:last-child dd,
+#qnaAnswer .dl-dt-dd:last-child dd {
+    border: none;
+}
+
+#qnaDetail .button-align button,
+#qnaAnswer .button-align button{
+    display: block;
+    width: 80px;
+    height: 30px;
+    line-height: 1.5em;
+    text-align: center;
+    color: #000;
+    margin-left: 10px;
+    background: linear-gradient(90deg, #D5BA8C, #E2CEAE);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    box-shadow: none;
+    border: none;    
+}
+
+#qnaDetail .button-align button a,
+#qnaAnswer .button-align button a {
+    text-decoration: none;
+    color: #000;
+}
+
+/* 문의 등록, 수정 */
+#qnaForm>div>div>div {
+    padding: 30px 30px 0;
+    text-align: center;
+}
+
+#qnaForm>div>div>div>div {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto 20px;
+}
+
+#qnaForm>div>div>div .cate-title {
+    display: flex;
+    justify-content: space-between;
+}
+
+#qnaForm>div>div>div .cate-title #demo-simple-select {
+    width: 80px;
+}
+
+#qnaForm>div>div>div .cate-title #outlined-required {
+    width: 420px;
+}
+
+#qnaForm .content-right {
+    margin: 30px auto;
+    text-align: right;
+}
+
+#qnaForm input,
+#qnaForm textarea {
+    width: 100%;
+    padding: 15px;
+}
+
+#qnaForm .css-dpjnhs-MuiInputBase-root-MuiOutlinedInput-root {
+    padding: 0;
+}
+
+#qnaForm .css-1d3z3hw-MuiOutlinedInput-notchedOutline {
+    color: #D5BA8C;
+    border:1px solid #D5BA8C;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+
+#qnaForm .content-right .custom-button-full {
+    width: 100px;
+    margin-left: 10px;
+    color: #000;
+    background: linear-gradient(90deg, #D5BA8C, #E2CEAE);
+    border-radius: 5px;
+    box-shadow: none;
+    border: none;
+}
+
+#qnaForm .content-right .custom-button-full:hover {
+    background: linear-gradient(-90deg, #D5BA8C, #E2CEAE);
+}
+
+#qnaForm .content-right .custom-button-full a {
+    text-decoration: none;
+    color: #000;
+}

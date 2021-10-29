@@ -1,0 +1,268 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
+
+/*
+member 사이드바
+*/
+.white-round-top {
+    border-radius: 15px 15px 0 0;
+    -webkit-border-radius: 15px 15px 0 0;
+    -moz-border-radius: 15px 15px 0 0;
+    -ms-border-radius: 15px 15px 0 0;
+    -o-border-radius: 15px 15px 0 0;
+}
+
+.white-round-bottom {
+    border-radius: 0 0 15px 15px;
+    -webkit-border-radius: 0 0 15px 15px;
+    -moz-border-radius: 0 0 15px 15px;
+    -ms-border-radius: 0 0 15px 15px;
+    -o-border-radius: 0 0 15px 15px;
+}
+
+.white-round-all {
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+/* member layout */
+
+.main-content {
+    padding: 20px;
+}
+
+#memberUpdate #profileImg {
+    text-align: center;
+    margin: 30px;
+
+}
+
+#memberUpdate #profileImg .img-span {
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: 0 auto 10px;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    overflow: hidden;
+}
+
+#memberUpdate #profileImg .img-span img {
+    width: 100%;
+}
+
+#memberUpdate #profileImg div {
+    font-size: 1.5em;
+}
+
+#memberUpdate #profileImg .profile-name {
+    font-weight: bold;
+}
+
+#memberUpdate #profileInfo {
+    width: 450px;
+    margin: 0 auto 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+#memberUpdate #profileInfo > * {
+    margin: 10px 0;
+}
+
+#memberUpdate .dl-dt-dd {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 10px;
+    display:flex;
+    justify-content: flex-start;
+}
+
+#memberUpdate .dl-dt-dd dt {
+    width: 100px;
+    margin-right: 10px;
+    font-weight: bold;
+    color: #D5BA8C;
+    text-align: right;
+}
+
+#memberUpdate .dl-dt-dd dd {
+    width: calc( 100% - 100px );
+    margin-left: 10px;
+} 
+
+#memberUpdate #profileInfo input[type=text],
+#memberUpdate #profileInfo textarea {
+    width: 100%;
+    padding: 15px;
+}
+
+#memberUpdate .css-dpjnhs-MuiInputBase-root-MuiOutlinedInput-root {
+    padding: 0;
+}
+
+#memberUpdate .custom-button-line, #memberUpdate .css-1d3z3hw-MuiOutlinedInput-notchedOutline {
+    color: #D5BA8C;
+    border:1px solid #D5BA8C;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+#memberUpdate .custom-button-line:hover {
+    color: white;
+    background: #D5BA8C;
+}
+
+#memberUpdate #contentCenter {
+    margin: 30px auto;
+    text-align: center;
+}
+
+#memberUpdate #contentCenter .custom-button-full {
+    width: 150px;
+    margin: 0 10px;
+    color: white;
+    background: linear-gradient(90deg, #D5BA8C, #E2CEAE);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    box-shadow: none;
+    border: none;
+}
+
+#memberUpdate #contentCenter .custom-button-full:hover {
+    background: linear-gradient(-90deg, #D5BA8C, #E2CEAE);
+}
+
+/* my membership */
+#myMembership {
+    margin-bottom: 40px;
+}
+#myMembership h3, #memberPayList h3 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#myMembership>div {
+    width: 350px;
+    height: 180px;
+    box-shadow: none;
+    background: linear-gradient(90deg, #D5BA8C, #E2CEAE);
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#myMembership>div>div, #memberDelete>div>div {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#myMembership>div .card-title, #memberDelete>div .card-title {
+    width: 100%;
+    font-weight: bold;
+}
+
+#myMembership>div .card-none, #memberDelete>div .card-none, #memberDelete .card-none {
+    width: 100%;
+    height: 100%;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#memberPayList>div {
+    box-shadow: none;
+}
+
+#memberPayList>div thead {
+    background: #E2CEAE;
+}
+
+#memberPayList>div tbody td {
+    border-bottom: 1px solid #E2CEAE;
+}
+
+#memberPayList>div tbody td a, #memberPayList>div tbody td span input {
+    width: 50px;
+    line-height: 1.8;
+    display: inline-block;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+    text-decoration: none;
+    color: white;
+    background: linear-gradient(90deg, #D5BA8C, #E2CEAE);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+
+#memberPayList>div tbody td a:hover, #memberPayList>div tbody td span input:hover {
+    background: linear-gradient(-90deg, #D5BA8C, #E2CEAE);
+}
+
+#memberDelete {
+    text-align: center;
+}
+
+#memberDelete h3 {
+    color: red;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#memberDelete>div {
+    width: 350px;
+    height: 180px;
+    box-shadow: none;
+    background: linear-gradient(90deg, #D5BA8C, #E2CEAE);
+    padding: 10px;
+    text-align: center;
+    margin: 0 auto 20px;
+}
+
+#memberDelete input[type=button] {
+    width: 150px;
+    height: 30px;
+    margin: 30px 10px 0;
+    color: white;
+    background: linear-gradient(90deg, #D5BA8C, #E2CEAE);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    box-shadow: none;
+    border: none;
+}
+
+
+

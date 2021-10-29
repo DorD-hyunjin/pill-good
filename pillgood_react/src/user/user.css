@@ -1,0 +1,37 @@
+.hidden {display:none}
+
+.blue-color {color:blue}
+
+.red-color {color:red}
+
+.align-join {
+    text-align: center;
+    background-color: hsla(0, 0%, 100%, 0.993);
+    border: 0.1px solid rgb(223, 222, 220);
+    border-radius: 20px;
+    width: 33%;
+    padding: 20px 20px 50px 20px;
+    margin: 130px auto; }
+
+.align-login {
+    text-align: center;
+    background-color: hsla(0, 0%, 100%, 0.993);
+    border: 0.1px solid rgb(223, 222, 220);
+    border-radius: 20px;
+    width: 30%;
+    padding: 20px 20px 50px 20px;
+    margin: 130px auto; 
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+#mainButton {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.emailField {
+    width: '60ch';
+}

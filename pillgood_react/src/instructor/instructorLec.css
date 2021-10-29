@@ -1,0 +1,14 @@
+#lec-name, #lec-image, #lec-room, #lec-content, #lec-room, #lec-date, #lec-time,
+#lec-level, #lec-email, #lec-number, #lec-button
+{
+    text-align: center;
+    marginLeft: 30px;
+    padding: 10px;
+
+}
+
+#lecList {
+
+    background: #E2CEAE;
+}
+

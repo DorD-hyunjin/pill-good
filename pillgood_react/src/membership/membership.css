@@ -1,0 +1,9 @@
+.item-flex{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+}
+
+.group-title{
+    width: 150px;
+}
